@@ -16,36 +16,40 @@ class RiceCooker:
             self.water_level += amount
             print(f"{amount} litre(s) d'eau ajouté(s).")
 
-    def boil_water(self, water_quantity_choice):
+    def boil_water(self, water_quantity_choice, input_function=input):
         max_capacity = 2
 
         try:
             water_quantity_choice = float(water_quantity_choice)
         except ValueError:
             new_quantity = float(
-                input("Veuillez entrer une valeur numérique valide : "))
+                input_function(
+                    "Veuillez entrer une valeur numérique valide : ")
+                )
             self.boil_water(new_quantity)
             return
 
         if water_quantity_choice == 0:
             print("Ajoutez de l'eau d'abord.")
             new_quantity = float(
-                input("Entrez une nouvelle quantité d'eau : "))
+                input_function("Entrez une nouvelle quantité d'eau : "))
             self.boil_water(new_quantity)
             return
 
-        if water_quantity_choice <= 0:
+        if water_quantity_choice < 0:
             print("Choix de quantité d'eau non valide.")
             new_quantity = float(
-                input("Entrez une nouvelle quantité d'eau : "))
+                input_function("Entrez une nouvelle quantité d'eau : "))
             self.boil_water(new_quantity)
             return
 
         if water_quantity_choice > max_capacity:
             new_quantity = float(
-                input("Entrez une nouvelle quantité d'eau : "))
+                input_function("Entrez une nouvelle quantité d'eau : "))
             self.boil_water(new_quantity)
             return
+
+        self.water_level += water_quantity_choice
 
         if water_quantity_choice == max_capacity:
             print(
@@ -72,11 +76,11 @@ class RiceCooker:
         else:
             print("Choix de quantité d'eau non valide.")
 
-    def cook_rice(self, rice_type):
+    def cook_rice(self, rice_type, input_function=input):
         if self.water_level == 0:
             print("Ajoutez de l'eau d'abord.")
             water_quantity = float(
-                            input(
+                            input_function(
                                 "Entrez la quantité d'eau "
                                 "(en litres, ne dépassez pas "
                                 "2 litres) : ")
@@ -103,7 +107,7 @@ class RiceCooker:
                 print(
                     "Choix non valide. Veuillez choisir '1' pour"
                     "'riz blanc' ou '2' pour 'riz brun'.")
-            rice_type = input("Entrez à nouveau le type de riz : ")
+            rice_type = input_function("Entrez à nouveau le type de riz : ")
 
         cooking_time = cooking_times[rice_type]
         rice_type_display = 'riz blanc' if rice_type == '1' else 'riz brun'
