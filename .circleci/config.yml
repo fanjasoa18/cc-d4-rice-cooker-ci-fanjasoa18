@@ -1,0 +1,48 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.9
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Installer et configurer l'environnement virtuel
+      - run:
+          name: Setup Virtual Environment
+          command: |
+            python -m venv venv
+            venv/Scripts/activate
+      # Installer Flake8
+      - run:
+          name: Install Flake8
+          command: |
+            pip install flake8
+      # Linting avec Flake8
+      - run:
+          name: Run Flake8
+          command: |
+            flake8 fichier.py
+
+      # Exécuter les tests
+      - run:
+          name: Run Tests
+          command: |
+            python -m unittest discover
+            # Or if you want to run a specific test:
+            # python -m unittest tests.fichierTest.ClassTest.feature_test_name
+
+      # Exécuter le programme principal
+      - run:
+          name: Run Main Program
+          command: |
+            python .\main
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
