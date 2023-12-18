@@ -10,24 +10,24 @@ jobs:
     steps:
       - checkout
 
-      # Installer et configurer l'environnement virtuel
+      # Install and configure virtual env
       - run:
           name: Setup Virtual Environment
           command: |
             python -m venv venv
             venv/Scripts/activate
-      # Installer Flake8
+      # install Flake8
       - run:
           name: Install Flake8
           command: |
             pip install flake8
-      # Linting avec Flake8
+      # Linting with Flake8
       - run:
           name: Run Flake8
           command: |
             flake8 fichier.py
 
-      # Exécuter les tests
+      # execute the tests
       - run:
           name: Run Tests
           command: |
@@ -35,7 +35,7 @@ jobs:
             # Or if you want to run a specific test:
             # python -m unittest tests.fichierTest.ClassTest.feature_test_name
 
-      # Exécuter le programme principal
+      # execute the programme
       - run:
           name: Run Main Program
           command: |
