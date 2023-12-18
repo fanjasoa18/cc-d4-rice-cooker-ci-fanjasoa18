@@ -1,6 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
 
-README MAIN:
 # MY RICE COOKER
 A simple Rice Cooker program designed to boil water and cook rice with ease. This program prompts users to add water and choose cooking options for a convenient cooking experience.
 
