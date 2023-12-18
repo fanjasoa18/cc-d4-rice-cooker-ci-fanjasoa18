@@ -14,10 +14,7 @@ You can:
 # Installation :
 It is implemented in 4 languages: 
 	
-	[Python](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/python#readme)
-	[Typescript](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/typescript#readme)
-	[Javascript](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/javascript#readme)
-	[Java](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/java#readme)
+[Python](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/python#readme), [Typescript](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/typescript#readme), [Javascript](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/javascript#readme), [Java](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/java#readme)
 
 So navigate to each branch for specific language installations.
 
