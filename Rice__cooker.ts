@@ -13,6 +13,9 @@ class RiceCooker {
   constructor () {
     this.waterLevel = 0
   }
+  getWaterLevel(): number {
+    return this.waterLevel;
+  }
 
   addWater (amount: number): void {
     const maxCapacity = 2
