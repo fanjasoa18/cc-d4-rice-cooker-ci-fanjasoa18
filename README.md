@@ -3,7 +3,7 @@
 # MY RICE COOKER
 A simple Rice Cooker program designed to boil water and cook rice with ease. This program prompts users to add water and choose cooking options for a convenient cooking experience.
 
-# Features :performance:
+# Features :
 You can:
 
 - Add water
@@ -11,7 +11,7 @@ You can:
 - Cook white or brown rice
 - This rice cooker has an automatic detection of cooking time
 
-# Installation :customization:
+# Installation :
 It is implemented in 4 languages: 
 	
 	[Python](https://github.com/hei-school/cc-d4-rice-cooker-ci-fanjasoa18/tree/feature/python#readme)
@@ -21,4 +21,4 @@ It is implemented in 4 languages:
 
 So navigate to each branch for specific language installations.
 
-## Enjoy cooking with your virtual Rice Cooker! ☻ :customization
+## Enjoy cooking with your virtual Rice Cooker! ☻
