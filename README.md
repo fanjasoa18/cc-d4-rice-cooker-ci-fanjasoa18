@@ -4,11 +4,11 @@
 
 This is the implementation of __My Rice Cooker__ using __Java__.
 
-## Requirements :memoryoptimization:
+## Requirements :
 
 This project follows the [Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf). To lint the code, use CheckStyle :ui.
 
-## Installation :offlineMode:
+## Installation :
 
 Clone this repossitory in your local machine:
 ```shell
