@@ -4,12 +4,12 @@
 
 This is the implementation of __My Rice Cooker__ using __Javascript__.
 
-## Requirements :realtimenotifications:
+## Requirements :
 
 This project follows the ESLint standards. To lint the code, use Airbnb javascript.
 For more information, you ca refer to the [ESLint](ESLint Documentation) and [Airbnb](ESLint Config Airbnb)
 
-## Installation :crossplatformcompatibility:
+## Installation :
 
 Clone this repossitory in your local machine:
 ```shell
