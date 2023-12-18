@@ -4,11 +4,11 @@
 
 This is the implementation of __My Rice Cooker__ using __Typescript__.
 
-## Requirements :analytics:
+## Requirements :
 
 This project use ESLint Standard to lint code and Jest for the tests.
 
-## Installation :blockchainintegration:
+## Installation :
 
 Clone this repossitory in your local machine:
 ```shell
