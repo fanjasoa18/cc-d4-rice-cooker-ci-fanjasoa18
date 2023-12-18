@@ -4,12 +4,12 @@
 
 This is the implementation of __My Rice Cooker__ using __Python__.
 
-## Requirements :ai:
+## Requirements :
 
 This project follows the PEP 8 coding standards. To lint the code, use flake8.
 For more information, you ca refer to the [PEP8](https://peps.python.org/pep-0008/) and [Flake8](https://flake8.pycqa.org/)
 
-## Installation :virtualreality:
+## Installation :
 
 Make sure you have Python installed.
 Clone this repossitory in your local machine:
