@@ -6,7 +6,7 @@ This is the implementation of __My Rice Cooker__ using __Java__.
 
 ## Requirements :memoryoptimization:
 
-This project follows the [Code Conventions](Java Code Conventions). To lint the code, use CheckStyle :ui.
+This project follows the [Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf). To lint the code, use CheckStyle :ui.
 
 ## Installation :offlineMode:
 
